@@ -1,0 +1,305 @@
+/* General stylings */
+body {
+  position: relative;
+  padding-top: 50px;
+  background-color: #FFFFFF;
+  color: #056075;
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+  color: #056075;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+.container {
+  width: 90%;
+}
+
+@media (max-width: 480px) {
+  .container {
+    width: 100%;
+  }
+  .anchor {
+    width: 100%;
+  }
+  .row {
+    width: 100%;
+  }
+}
+
+.anchor {
+  padding-top: 50px;
+}
+
+.row {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.col-xs-6 {
+  padding: 20px;
+}
+
+.col-md-3 {
+  padding: 20px;
+}
+
+
+/* Links */
+a:link {
+  color: #056075;
+}
+
+a:visited {
+  color: #056075;
+}
+
+a:hover {
+  color: #0B7F9A;
+  text-decoration: none;
+}
+
+/* Button links */
+.btn-default {
+  background-color: #056075;
+  color: #EAFAFF;
+  border-color: #0B7F9A;
+}
+
+.btn-default:hover {
+  background-color: #056075;
+  color: #EAFAFF;
+  border-color: #0B7F9A;
+  opacity: 0.5;
+}
+
+
+/* Navigation */
+.navbar {
+    background-color: #abc6d1;
+    z-index: 1;
+}
+
+.navbar-inverse .navbar-collapse {
+  border-color: #056075;
+}
+
+.navbar-inverse .navbar-nav>li>a{
+  color: #EAFAFF;
+}
+
+.navbar-inverse .navbar-nav>.active>a {
+  background-color: #789EAE;
+}
+
+.navbar-nav a:link {
+  color: #EAFAFF;
+  margin: 20px;
+}
+
+.navbar-nav a:visited {
+  color: #EAFAFF;
+}
+
+.navbar-nav a:hover {
+  color: #0B7F9A;
+  opacity: 0.5;
+}
+
+.agnes-nav-button {
+  text-transform: uppercase;
+  padding-top: 8px;
+  padding-left: 30px;
+}
+
+.agnes-nav-button a {
+  color: white;
+}
+
+.agnes-nav-button a:hover {
+  text-decoration: none;
+  color: #EAFAFF;
+  opacity: 0.9;
+}
+
+@media (max-width: 480px) {
+  .agnes-nav-button img {
+    height: 80px;
+  }
+}
+
+/* Carousel */
+.carousel {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.carousel-caption {
+  margin-bottom: 5%;
+}
+
+.carousel-caption h4 {
+  padding: 10px;
+  color: #056075;
+}
+
+@media (max-width: 480px) {
+  .carousel-caption h4 {
+    font-size: 0.9em;
+    padding: 1%;
+  }
+}
+
+
+/* About section */
+#img-about {
+  margin-bottom: 10px;
+  margin-left: 5%;
+  height: 270px;
+  padding-top: 30px;
+}
+
+#about .intro {
+  padding-top: 20px;
+}
+
+#modal-button {
+  margin-top: 20px;
+}
+
+#agnes-cv {
+  height: 600px;
+  width: 100%;
+  padding: 5px;
+}
+
+#agnes-certificate {
+  height: 600px;
+  width: 100%;
+  padding: 5px;
+}
+
+#skill-list {
+  margin-top: 40px;
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+}
+
+
+/* Work section*/
+.work-img {
+  display: block;
+  margin: auto;
+  max-width: 428px;
+  position: relative;
+}
+
+.info {
+  position: absolute;
+  top: 35%;
+  color: #EAFAFF;
+  font-family: Verdana;
+  font-size: 1em;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.4em;
+  line-height: 1.6;
+  width: 100%;
+  display: none;
+  background-color: #63A3B2;
+}
+
+.proj-title {
+    font-weight: bold;
+}
+
+/* Contact section */
+#contact {
+    background-image: url("../img/contact-background3.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    color: #056075;
+    height: 800px;
+    padding: 40px;
+    width: 100%;
+}
+
+.contact-form {
+  padding-left: 5%;
+}
+
+#contact-address {
+  text-align: center;
+  padding-right: 3%;
+}
+
+@media (max-width: 480px) {
+  #contact {
+    height: 1100px;
+  }
+  .contact-form {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 767px) {
+  #contact {
+    padding: 2px;
+    height: 1100px;
+  }
+  #contact-form {
+    padding: 10px;
+  }
+}
+
+#map {
+  height: 350px;
+  width: 100%;
+}
+
+
+
+/* FAQ section */
+
+#accordion {
+  padding-top: 15px;
+  padding-bottom: 20px;
+  margin: auto;
+  width: 80%;
+}
+
+#headingOne {
+  background-color: #93C9D6;
+}
+
+#headingTwo {
+  background-color: #93C9D6;
+}
+
+#headingThree {
+  background-color: #93C9D6;
+}
+
+
+/* Youtube video */
+.embed-responsive {
+  padding-top: 10px;
+  height: auto;
+}
+
+#yt {
+  width: 50%;
+}
+
+/* Footer */
+footer {
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px;
+}
